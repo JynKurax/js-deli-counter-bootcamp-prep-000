@@ -1,4 +1,4 @@
-var katzDeliLine = []
+var katzDeliLine = {lineNum:cusName}
 var lineNum = cusname
 
 function takeANumber(cusName, lineNum){
