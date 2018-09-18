@@ -2,7 +2,7 @@ var katzDeliLine = []
 
 function takeANumber(lineName, cusName){
   lineName.push[cusName]
-  return `Welcome, ${cusName}. You are number ${cusName.length} in line.`
+  return `Welcome, ${cusName}. You are number ${lineName.length} in line.`
 }
 
 function nowServing(katzDeliLine){
