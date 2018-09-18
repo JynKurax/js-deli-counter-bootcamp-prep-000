@@ -5,10 +5,10 @@ function takeANumber(lineName, cusName){
   return `Welcome, ${cusName}. You are number ${lineName.length} in line.`
 }
 
-function nowServing(katzDeliLine){
-  if(cusName.length > 0){
-    return cusName[0]
-    delete cusName[0]
+function nowServing(lineName){
+  if(lineName.length > 0){
+    return lineName[0]
+    delete lineName[0]
   } else {
     return "There is nobody waiting to be served!"
   }
