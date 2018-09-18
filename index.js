@@ -1,5 +1,5 @@
 var katzDeliLine = []
-var lineNum = cusname
+
 
 function takeANumber(lineNum, cusName){
   
