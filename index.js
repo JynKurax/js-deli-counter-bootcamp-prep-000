@@ -14,8 +14,13 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(katzDeliLine){
-  
+  function listReturn(){
+  for (var i = 0; i < katDeliLine.length; i++){
+    return `${i + 1}. ${cusName[i]}`
+    i++
+   }
+  }
   while(katzDeliLine.length > 0){
-   return 'The line is currently:' + katzDeliLine.cusName[i]
+   return 'The line is currently:' + listReturn
  }
 }
