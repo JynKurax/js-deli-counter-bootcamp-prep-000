@@ -1,8 +1,8 @@
-var katzDeliLine = {lineNum:cusName}
+var katzDeliLine = []
 var lineNum = cusname
 
 function takeANumber(cusName, lineNum){
-  katzDeliLine.push(cusName)
+  katzDeliLine.push([lineNum, cusName])
   
   return `Welcome, ${cusName}. You are number ${lineNum} in line.`
 }
