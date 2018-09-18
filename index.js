@@ -14,14 +14,14 @@ function nowServing(lineName){
   }
 }
 
-function currentLine(katzDeliLine){
+function currentLine(lineName){
   function listReturn(){
-  for (var i = 0; i < katDeliLine.length; i++){
-    return `${i + 1}. ${cusName[i]}`
+  for (var i = 0; i < lineName.length; i++){
+    return `${i + 1}. ${lineName[i]}`
     i++
    }
   }
-  if (katzDeliLine.length > 0){
+  if (lineName.length > 0){
    return 'The line is currently:' + listReturn
  } else {
    return "The line is currently empty."
