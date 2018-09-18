@@ -1,9 +1,10 @@
 var katzDeliLine = []
+var lineNum = cusname
 
 function takeANumber(cusName, lineNum){
   katzDeliLine.push(cusName)
-  lineNum = katzDeliLine.length
-  return `Welcome, ${cusName[lineNum]}. You are number ${lineNum} in line.`
+  
+  return `Welcome, ${cusName}. You are number ${lineNum} in line.`
 }
 
 function nowServing(katzDeliLine){
