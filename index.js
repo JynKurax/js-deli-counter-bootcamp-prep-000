@@ -1,6 +1,7 @@
 function takeANumber(cusName, lineNum){
+  lineNum = katzDeliLine.length
   katzDeliLine.push(cusName)
-  return `Greetings, ${cusname}. You are number .`
+  return `Greetings, ${cusName}. You are number ${lineNum}.`
 }
 
 function nowServing(katzDeliLine){
@@ -13,8 +14,8 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(katzDeliLine){
-  var i = 0
-  while(i < katzDeliLine.length){
-   return `The line is currently: 
+  
+  while(katzDeliLine.length > 0){
+   return 'The line is currently:' + katzDeliLine.cusName[i]
  }
 }
